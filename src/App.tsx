@@ -1,9 +1,12 @@
 import "./App.css";
-import { NotFoundPage } from "./twitlightZone";
+import { HashRouter } from "react-router-dom";
+import { AppRouter } from "./router";
 function App() {
   return (
     <>
-      <NotFoundPage />
+      <HashRouter>
+        <AppRouter />
+      </HashRouter>
     </>
   );
 }
