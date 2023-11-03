@@ -1,11 +1,9 @@
 import "./App.css";
-import { NotFoundPage } from "./pages";
+import { NotFoundPage } from "./twitlightZone";
 function App() {
   return (
     <>
-      <div>
-        <NotFoundPage />
-      </div>
+      <NotFoundPage />
     </>
   );
 }
