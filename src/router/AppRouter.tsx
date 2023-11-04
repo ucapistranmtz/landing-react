@@ -1,16 +1,13 @@
 import { Route, Routes } from "react-router-dom";
 
-import { NotFoundPage } from "../twitlightZone";
+import { LandingPage, NotFoundPage, ServerErrorPage } from "../";
 
 export const AppRouter = () => {
   return (
     <Routes>
-      {
-        <>
-          <Route path="/notfound/*" element={<NotFoundPage />} />
-          <Route path="/*" element={<NotFoundPage />} />
-        </>
-      }
+      <Route path="/" element={<LandingPage />} />
+      <Route path="/notfound" element={<NotFoundPage />} />
+      <Route path="/error" element={<ServerErrorPage />} />
     </Routes>
   );
 };

@@ -18,7 +18,7 @@ export const NotFound = () => {
           While we try to find your lost webpage, feel free to explore some of
           the otherworldly content we have to offer.
         </p>
-        <a href="/">Escape Back to Safety!</a>
+        <a href="https://google.com">Escape Back to Safety!</a>
       </div>
     </>
   );
