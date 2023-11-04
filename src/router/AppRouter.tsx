@@ -8,6 +8,7 @@ export const AppRouter = () => {
       <Route path="/" element={<LandingPage />} />
       <Route path="/notfound" element={<NotFoundPage />} />
       <Route path="/error" element={<ServerErrorPage />} />
+      <Route path="/*" element={<NotFoundPage />} />
     </Routes>
   );
 };
