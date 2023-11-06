@@ -1,3 +1,7 @@
 export const WarningMessage = () => {
-  return <div>Oops! You've Strayed Into the Twilight Zone</div>;
+  return (
+    <h3 className="warningMessage">
+      Oops! You've Strayed Into the Twilight Zone
+    </h3>
+  );
 };

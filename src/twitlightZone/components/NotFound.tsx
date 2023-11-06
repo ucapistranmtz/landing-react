@@ -9,9 +9,10 @@ import {
 export const NotFound = () => {
   return (
     <>
-      <div id="container">
-        <AloneCoffeeShop />
+      <div className="container">
         <WarningMessage />
+        <AloneCoffeeShop />
+
         <UnchartedTerritory />
         <HelpMessage />
         <ScapeButton />
