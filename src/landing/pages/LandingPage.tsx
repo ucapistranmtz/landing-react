@@ -1,5 +1,11 @@
-import { Landing } from "../components";
+import { Header } from "../components";
 
 export const LandingPage = () => {
-  return <Landing />;
+  return (
+    <>
+      <div className="container">
+        <Header />
+      </div>
+    </>
+  );
 };
