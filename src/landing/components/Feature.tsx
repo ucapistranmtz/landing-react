@@ -11,6 +11,7 @@ export const Feature = (feature: {
     <>
       <h2>{feature.order}</h2>
       <img src={feature.img} alt="" />
+      <h4>{feature.title}</h4>
       <FeatureButton
         ref={feature.buttonRef}
         text={feature.buttonText}
