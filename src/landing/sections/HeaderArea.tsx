@@ -1,3 +1,8 @@
+import { Header } from "../components";
 export const HeaderArea = () => {
-  return <div>HeaderArea</div>;
+  return (
+    <div className="Header-area" id="welcome">
+      <Header />
+    </div>
+  );
 };
