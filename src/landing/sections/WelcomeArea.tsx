@@ -3,9 +3,7 @@ export const WelcomeArea = () => {
   return (
     <div className="welcome-area" id="welcome">
       <div className="header-text">
-        <div className="row">
-          <Welcome />
-        </div>
+        <Welcome />
       </div>
     </div>
   );

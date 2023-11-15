@@ -11,9 +11,11 @@ import {
 export const LandingPage = () => {
   return (
     <>
-      <div className="container-landing">
-        {/*  <HeaderArea/>*/}
-        <WelcomeArea />
+      <div>
+        <div className="main-area">
+          <HeaderArea />
+          <WelcomeArea />
+        </div>
         <AboutArea />
         <FeatureArea />
         <TestimonialsArea />
